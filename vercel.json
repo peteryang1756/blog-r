@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    { 
+      "source": "/",
+      "destination": "https://blog.ssangyongsports.org",
+      "permanent": true
+    },
+    { 
+      "source": "/:path*",
+      "destination": "https://blog.ssangyongsports.org/:path*",
+      "permanent": true
+    }
+  ]
+}
